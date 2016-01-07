@@ -12,7 +12,7 @@ In computer science, control flow (or alternatively, flow of control) is the ord
 
 Turn and Talk
 	Examples of control flow you've worked through outside of programming
-  
+
 Group Discussion
   Share interesting points
 
@@ -32,10 +32,25 @@ Some other examples
 Fist to five check-in.
 
 STEP 2: Practice Skill together – WE DO (5 min)
-Write a function that accepts a plane ticket cost, and logs "Too Expensive", "Seems Reasonable", and "Buy Buy Buy!" at $500, $250, $100 ranges respectively.
+Write a function that accepts a plane ticket cost, and logs "Too Expensive", "Seems Reasonable", and "Buy Buy Buy!" at $500, $250, $100 ranges respectively. If the cost is above $500 log "I'm not made of money!".
 
 ```javascript
+function ticketCost (x) {
+    if (x < 100) {
+        console.log("Buy Buy Buy!");
+    } else if (x < 200) {
+        console.log("Seems reasonable");
+    } else if (x < 500) {
+        console.log("Too expensive");
+    } else {
+        console.log("I'm not made of money!");
+    }
+}
 
+ticketCost (50);
+ticketCost (150);
+ticketCost (250);
+ticketCost (550);
 ```
 
 Potential examples -
