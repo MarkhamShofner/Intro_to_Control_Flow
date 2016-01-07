@@ -10,8 +10,18 @@
 <!-- draw on whiteboard, use visual aids/discussion -->
 In computer science, control flow (or alternatively, flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated.
 
+Primary
+- conditionals (if-then, if-then-else)
+  - the focus of today's lesson
+- for loops
+- while loops
+
+Additional
+- switch statements
+- do-while statements
+
 ##### Turn and Talk
-  > Examples of control flow you've worked through outside of programming
+  > Examples of conditionals you've worked through outside of programming
 
 ##### Group Discussion
   > Share interesting points
@@ -29,14 +39,15 @@ Why we need to be precise in our language? Computers cannot read between the lin
   The wife asks him, "Why the hell did you buy 6 cartons of milk?"
   He replied, "They had eggs."
 
-Coders are funny.
+Coding humor.
 
 #####Fist to five check-in.
 
 ***
 
 #### Practice Skill together – WE DO (5 min)
-Write a function that accepts a plane ticket cost, and logs "Too Expensive", "Seems Reasonable", and "Buy Buy Buy!" at $500, $250, $100 ranges respectively. If the cost is above $500 log "I'm not made of money!".
+Write a function that accepts a plane ticket cost, and logs "Too Expensive", "Seems Reasonable", and "Buy Buy Buy!" at $500, $250, $100 ranges respectively.
+If the cost is above $500 log "I'm not made of money!".
 
 ```javascript
 function ticketCost (x) {
@@ -68,16 +79,20 @@ ticketCost (250);
 ticketCost (550);
 ```
 
-##### Potential others examples
+##### Potential others examples of conditionals
 - Height for theme park rides
 - Age for entrance to clubs
 - Shout out some others!
 
-#### Review Questions
-1. What is conditional flow?
-2. How can we use it?
+##### Additional Control Flow
+Time permitting, set up intro exposure to loops.
 
-###### Further Research
+#### Review Questions
+1. Why use control flow in the first place?
+2. What are some good practices to implement while writing control flow?
+3. What is the most basic form of control flow?
+
+##### Further Research
 - FizzBuzz
   - https://www.codecademy.com/courses/fizzbuzz/0/1
 - https://en.wikipedia.org/wiki/Decision_tree
