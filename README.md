@@ -1,8 +1,5 @@
 # Introduction to Control Flow
 
-((assuming basic knowledge of booleans))
-((and comparison operators?))
-
 ## Learning Objectives
 - Describe what control flow is
 - Understand the various ways control flow can be used
@@ -74,11 +71,12 @@ ticketCost (550);
 - Age for entrance to clubs
 - Shout out some others!
 
-##Final Loop
-- What did we learn?
-- How can we use it?
+##Review Questions
+1. What is conditional flow?
+2. How can we use it?
 
-####Further Reading
+#####Further Research
 - FizzBuzz
   - https://www.codecademy.com/courses/fizzbuzz/0/1
 - https://en.wikipedia.org/wiki/Decision_tree
+- Text-based adventure games
