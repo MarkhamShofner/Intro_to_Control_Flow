@@ -33,6 +33,8 @@ Coders are funny.
 
 #####Fist to five check-in.
 
+***
+
 #### Practice Skill together – WE DO (5 min)
 Write a function that accepts a plane ticket cost, and logs "Too Expensive", "Seems Reasonable", and "Buy Buy Buy!" at $500, $250, $100 ranges respectively. If the cost is above $500 log "I'm not made of money!".
 
