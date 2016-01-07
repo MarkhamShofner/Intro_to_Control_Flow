@@ -10,13 +10,13 @@
 <!-- draw on whiteboard, use visual aids/discussion -->
 In computer science, control flow (or alternatively, flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated.
 
-#####Turn and Talk
-  Examples of control flow you've worked through outside of programming
+##### Turn and Talk
+  > Examples of control flow you've worked through outside of programming
 
-#####Group Discussion
-  Share interesting points
+##### Group Discussion
+  > Share interesting points
 
-###Some other examples
+##### Some other examples
 - Decision trees
 - Process mapping
 - Stories
@@ -29,11 +29,11 @@ Why we need to be precise in our language? Computers cannot read between the lin
   The wife asks him, "Why the hell did you buy 6 cartons of milk?"
   He replied, "They had eggs."
 
-Coder's are funny.
+Coders are funny.
 
-###Fist to five check-in.
+#####Fist to five check-in.
 
-STEP 2: Practice Skill together – WE DO (5 min)
+#### Practice Skill together – WE DO (5 min)
 Write a function that accepts a plane ticket cost, and logs "Too Expensive", "Seems Reasonable", and "Buy Buy Buy!" at $500, $250, $100 ranges respectively. If the cost is above $500 log "I'm not made of money!".
 
 ```javascript
@@ -66,16 +66,16 @@ ticketCost (250);
 ticketCost (550);
 ```
 
-####Potential others examples
+##### Potential others examples
 - Height for theme park rides
 - Age for entrance to clubs
 - Shout out some others!
 
-##Review Questions
+#### Review Questions
 1. What is conditional flow?
 2. How can we use it?
 
-#####Further Research
+###### Further Research
 - FizzBuzz
   - https://www.codecademy.com/courses/fizzbuzz/0/1
 - https://en.wikipedia.org/wiki/Decision_tree
