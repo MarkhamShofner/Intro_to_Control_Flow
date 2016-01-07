@@ -7,7 +7,7 @@
   - Time permitting, intro to loops
 
 ## Basics of Control Flow
-#### Introduce Topic & explain skill – I DO (5 min)
+#### Introduce Topic & explain skill – I DO (7 min)
 <!-- draw on whiteboard, use visual aids/discussion -->
 In computer science, control flow (or alternatively, flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated.
 
@@ -46,7 +46,7 @@ Coding humor.
 
 ***
 
-#### Practice Skill together – WE DO (5 min)
+#### Practice Skill together – WE DO (6 min)
 Write a function that accepts a plane ticket cost, and logs "Too Expensive", "Seems Reasonable", and "Buy Buy Buy!" at $500, $250, $100 ranges respectively.
 If the cost is above $500 log "I'm not made of money!".
 
@@ -88,7 +88,7 @@ ticketCost (550);
 ##### Additional Control Flow
 Time permitting, set up intro exposure to loops.
 
-#### Review Questions
+#### Review Questions and Wrap-Up (2 min)
 1. Why use control flow in the first place?
 2. What are some good practices to implement while writing control flow?
 3. What is the most basic form of control flow?
