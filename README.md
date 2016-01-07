@@ -3,7 +3,8 @@
 ## Learning Objectives
 - Describe what control flow is
 - Understand the various ways control flow can be used
-- Implement self-built examples of control flow
+- Implement self-built examples of control flow (primarily conditionals)
+  - Time permitting, intro to loops
 
 ## Basics of Control Flow
 #### Introduce Topic & explain skill – I DO (5 min)
@@ -51,8 +52,8 @@ If the cost is above $500 log "I'm not made of money!".
 
 ```javascript
 function ticketCost (x) {
-    if () {
-
+    if (/*condition to be met*/) {
+      //code to execute
     }
 }
 
