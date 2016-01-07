@@ -10,18 +10,18 @@
 <!-- draw on whiteboard, use visual aids/discussion -->
 In computer science, control flow (or alternatively, flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated.
 
-###Turn and Talk
-	Examples of control flow you've worked through outside of programming
+#####Turn and Talk
+  Examples of control flow you've worked through outside of programming
 
-###Group Discussion
+#####Group Discussion
   Share interesting points
 
 ###Some other examples
-	Decision trees
-	Stories
-  Flow
+- Decision trees
+- Process mapping
+- Stories
 
-Example of why we need to be precise in our language. Computer's cannot read between the lines.
+Why we need to be precise in our language? Computers cannot read between the lines.
 
   >A wife asks her husband, a computer programmer;
   "Could you please go to the store for me and buy one carton of milk, and if they have eggs, get 6!"
