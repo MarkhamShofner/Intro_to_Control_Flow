@@ -26,7 +26,8 @@ In computer science, control flow (or alternatively, flow of control) is the ord
 
 Example of why we need to be precise in our language. Computer's cannot read between the lines.
 
-  >A wife asks her husband, a computer programmer; "Could you please go to the store for me and buy one carton of milk, and if they have eggs, get 6!"
+  >A wife asks her husband, a computer programmer;
+  "Could you please go to the store for me and buy one carton of milk, and if they have eggs, get 6!"
   A short time later the husband comes back with 6 cartons of milk.
   The wife asks him, "Why the hell did you buy 6 cartons of milk?"
   He replied, "They had eggs."
