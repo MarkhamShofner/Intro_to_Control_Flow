@@ -11,13 +11,13 @@
 <!-- draw on whiteboard, use visual aids/discussion -->
 In computer science, control flow (or alternatively, flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated.
 
-Primary
+#####Primary
 - conditionals (if-then, if-then-else)
   - the focus of today's lesson
 - for loops
 - while loops
 
-Additional
+#####Additional
 - switch statements
 - do-while statements
 
