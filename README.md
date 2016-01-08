@@ -94,6 +94,8 @@ ticketCost (550);
 
 ##### Fist to five check-in.
 
+***
+
 ##### Additional Control Flow - YOU DO (4 min)
 Open up http://labs.codecademy.com/#:workspace in your browser of choice.
 
