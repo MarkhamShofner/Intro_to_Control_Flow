@@ -45,7 +45,7 @@ Coding humor.
 Let's write a function that accepts a plane ticket cost, and logs:
 - "Buy Buy Buy!" below $100
 - "Seems Reasonable" between $100 and $200
-- "Too Expensive" above $500
+- "Too Expensive" between $200 and $500
 - "I'm not made of money!" if none of the above
 
 ```javascript
