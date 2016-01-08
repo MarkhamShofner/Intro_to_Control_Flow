@@ -1,11 +1,11 @@
 # Introduction to Control Flow
 
+> Assuming the class has covered the basics of JavaScript - including variables, functions, and booleans.
+
 ## Learning Objectives
 - Describe what control flow is
 - Understand the various ways control flow can be used
 - Implement self-built examples of control flow (primarily conditionals)
-
-> Assuming the class has covered the basics of JavaScript - including variables, functions, and booleans.
 
 ## Basics of Control Flow
 #### Introduce Topic & explain skill – I DO (4 min)
@@ -41,7 +41,7 @@ Coding humor.
 
 ***
 
-#### Practice Skill together – WE DO (5 min)
+#### Practice Skill together – WE DO (4 min)
 Let's write a function that accepts a plane ticket cost, and logs:
 - "Buy Buy Buy!" below $100
 - "Seems Reasonable" between $100 and $200
@@ -65,7 +65,8 @@ function ticketCost (x) {
 ```
 Let's take a few minutes to build out a draft structure before moving on to the answer below.
 
-- Note that if any earlier loop is met, then the code will jump to the end of the conditional, only executing the first matching condition.
+- What happens if multiple conditions in the same statement are met?
+  - Note that if any earlier loop is met, then the code will jump to the end of the conditional, only executing the first matching condition.
 - How else can the order of conditionals be made?
 
 ```javascript
@@ -93,7 +94,7 @@ ticketCost (550);
 
 ##### Fist to five check-in.
 
-##### Additional Control Flow - YOU DO (5 min)
+##### Additional Control Flow - YOU DO (4 min)
 Open up http://labs.codecademy.com/#:workspace in your browser of choice.
 
 Reverse the order of the above ticket cost function. Instead of checking first if something is cheap enough, start from the top ceiling condition and work your way down.
@@ -101,7 +102,8 @@ Reverse the order of the above ticket cost function. Instead of checking first i
 #### Review Questions and Wrap-Up (2 min)
 1. Why use control flow in the first place?
 2. What are some good practices to implement while writing control flow?
-3. What is the most basic form of control flow?
+3. What is a basic form of control flow?
+4. What are some additional forms of control flow?
 
 ***
 
