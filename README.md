@@ -7,7 +7,7 @@
   - Time permitting, intro to loops
 
 ## Basics of Control Flow
-#### Introduce Topic & explain skill – I DO (7 min)
+#### Introduce Topic & explain skill – I DO (4 min)
 <!-- draw on whiteboard, use visual aids/discussion -->
 In computer science, control flow (or alternatively, flow of control) is the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated.
 
@@ -42,24 +42,29 @@ Why we need to be precise in our language? Computers cannot read between the lin
 
 Coding humor.
 
-#####Fist to five check-in.
-
 ***
 
-#### Practice Skill together – WE DO (6 min)
-Write a function that accepts a plane ticket cost, and logs "Too Expensive", "Seems Reasonable", and "Buy Buy Buy!" at $500, $250, $100 ranges respectively.
+#### Practice Skill together – WE DO (5 min)
+Let's write a function that accepts a plane ticket cost, and logs "Too Expensive", "Seems Reasonable", and "Buy Buy Buy!" at $500, $250, $100 ranges respectively.
 If the cost is above $500 log "I'm not made of money!".
 
 ```javascript
 function ticketCost (x) {
     if (/*condition to be met*/) {
-      //code to execute
+      /*code to execute*/
+    } else if (/*secondary condition*/) {
+      /*code*/
+    } else if (/*tertiary condition*/) {
+      /*code*/
+    } else /*if no condition is met*/ {
+      /*code*/
     }
 }
 
 ```
+Let's take a few minutes to build out the above structure before moving on to the answer below.
 
-Take a few minutes to build out the above structure before moving on to the answer below.
+Note that if any earlier loop is met, then the code will jump to the end of the conditional, only executing the first matching condition.
 
 ```javascript
 function ticketCost (x) {
@@ -83,10 +88,19 @@ ticketCost (550);
 ##### Potential others examples of conditionals
 - Height for theme park rides
 - Age for entrance to clubs
-- Shout out some others!
 
-##### Additional Control Flow
-Time permitting, set up intro exposure to loops.
+#####Fist to five check-in.
+
+##### You Additional Control Flow - YOU DO (5 min)
+Explore loops within conditionals.
+
+Open up http://labs.codecademy.com/#:workspace in your browser of choice.
+
+Model the following problem - loop from 1 through 15.
+- If the number is divisible by three, log fizz
+- If divisible by five, log buzz
+- If divisible by both three and five, log fizzbuzz
+- If none of the above conditions are met, log the number
 
 #### Review Questions and Wrap-Up (2 min)
 1. Why use control flow in the first place?
@@ -94,7 +108,6 @@ Time permitting, set up intro exposure to loops.
 3. What is the most basic form of control flow?
 
 ##### Further Research
-- FizzBuzz
-  - https://www.codecademy.com/courses/fizzbuzz/0/1
+- https://www.codecademy.com/courses/fizzbuzz/0/1
 - https://en.wikipedia.org/wiki/Decision_tree
 - Text-based adventure games
